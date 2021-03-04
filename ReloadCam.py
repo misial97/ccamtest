@@ -130,7 +130,7 @@ def DownloadFile(url):
         return None;
 
 def DownloadScript(fileName):
-    downloadedScript = DownloadFile(sourceUrl + fileName + ".py" + "?token=AIRFFZS3H6EVJS6DO4NW46DAIFKWM")
+    downloadedScript = DownloadFile(sourceUrl + fileName + ".py")
 
     if downloadedScript is not None and "Not found" not in downloadedScript:
         newFile = open(GetCurrentPath() + fileName + ".py",'w')
