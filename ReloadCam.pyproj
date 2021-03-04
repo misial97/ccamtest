@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a309e664-2ba3-40a7-820c-f52cf27fbb85}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>ReloadCam.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|2.7-32</InterpreterId>
+    <InterpreterArguments>
+    </InterpreterArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <CommandLineArguments>-s Allcam</CommandLineArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DELETED_ReloadCam_Server_Cccam4you.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Demed.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Foot4sport.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Fullmonsters.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Hacksat.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Kacsat.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Kingcccam.py" />
+    <Compile Include="DELETED_ReloadCam_Server_ManiaForall.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Mario.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Mawali.py" />
+    <Compile Include="ReloadCam_Server_Cccamspot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReloadCam_Server_Powerfull.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReloadCam_Server_Mycccam.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Realtv1.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Satna.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Toopccam.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Ultrahd.py" />
+    <Compile Include="ReloadCam.py" />
+    <Compile Include="ReloadCamUndro.py" />
+    <Compile Include="ReloadCam_Arguments.py" />
+    <Compile Include="ReloadCam_Importlib.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReloadCam_NlineTester.py" />
+    <Compile Include="ReloadCam_ClineTester.py" />
+    <Compile Include="ReloadCam_Helper.py" />
+    <Compile Include="ReloadCam_Main.py" />
+    <Compile Include="ReloadCam_Server_Allcam.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Bilalon.py" />
+    <Compile Include="ReloadCam_Server_Bosscccam.py" />
+    <Compile Include="ReloadCam_Server_Cccamlux.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Madvengers.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Onecccam.py" />
+    <Compile Include="ReloadCam_Server_Freeccamserver.py" />
+    <Compile Include="ReloadCam_Server_Freecccam.py" />
+    <Compile Include="ReloadCam_Server_Cccam4k.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReloadCam_Server_Cccamgenerador.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Cccamcafard.py" />
+    <Compile Include="ReloadCam_Server_Cccamfree.py" />
+    <Compile Include="ReloadCam_Server_Cccamgenerator.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Cccamgratis.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Elaissaoui.py" />
+    <Compile Include="ReloadCam_Server_Freecline.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Greencccamfree.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Jokercccam.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Myfree.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Raul7.py" />
+    <Compile Include="ReloadCam_Server_Satunivers.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Seduct.py" />
+    <Compile Include="ReloadCam_Server_Testious.py" />
+    <Compile Include="ReloadCam_Server_Top2servers.py" />
+    <Compile Include="DELETED_ReloadCam_Server_Xhaka.py" />
+    <Compile Include="ReloadCam_Versions.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|2.7-32" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
