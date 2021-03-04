@@ -109,7 +109,7 @@ def GetCustomClines(): #No borres esta linea!
 
 import os.path
 
-sourceUrl = "https://raw.githubusercontent.com/gavazquez/ReloadCam/master/"
+sourceUrl = "https://raw.githubusercontent.com/misial97/ccamtest/master/"
 
 #region Refreshing methods
 
@@ -130,7 +130,7 @@ def DownloadFile(url):
         return None;
 
 def DownloadScript(fileName):
-    downloadedScript = DownloadFile(sourceUrl + fileName + ".py")
+    downloadedScript = DownloadFile(sourceUrl + fileName + ".py" + "?token=AIRFFZS3H6EVJS6DO4NW46DAIFKWM")
 
     if downloadedScript is not None and "Not found" not in downloadedScript:
         newFile = open(GetCurrentPath() + fileName + ".py",'w')
